@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+h1{
+    font-family: 'Honk', system-ui;
+}
+.card {
+    box-shadow: 5px 5px 0px 0px rgba(222, 222, 222, 1);
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(222, 222, 222, 1);
+    -moz-box-shadow: 5px 5px 0px 0px rgba(222, 222, 222, 1);
+}
+
+input {
+    box-shadow: 5px 5px 0px 0px rgba(222, 222, 222, 1);
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(222, 222, 222, 1);
+    -moz-box-shadow: 5px 5px 0px 0px rgba(222, 222, 222, 1);
+}
+
+.description {
+    text-align: left;
+    padding: 20px;
+    font-size: 1.3rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transition: all .3s ease-in-out;
+    translate: 0% 90%;
+}
+
+.test p.description:hover {
+    translate: 0% 0%;
+}
